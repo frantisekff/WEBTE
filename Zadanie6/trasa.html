@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style_trasa.css">
+</head>
+<body>
+
+<label>Od akého miesta chceš prísť FEI? :</label>
+<input type="text" name="miesto" placeholder="Zadaj miesto" id="start" value="Bratislava, Slovensko">
+<input type="button" value="Najdi" id="najdi">
+<form id="mainForm" name="mainForm">
+    <input type="radio" name="doprava" value="WALKING" checked> Pešo
+    <input type="radio" name="doprava" value="DRIVING"> Autom
+</form>
+<br>
+<br>
+
+<div id="map"></div>
+
+<div id="warnings-panel">hhhhhh</div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script type="text/javascript" src="script_trasu.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?API_KEY&libraries=places&callback=initMap">
+</script>
+
+</body>
+</html>

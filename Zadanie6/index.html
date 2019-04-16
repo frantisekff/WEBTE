@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<header><h1>Ako sa dostať na fakultu FEI</h1></header>
+
+<fieldset>
+    <label>Od akého miesta chceš prísť FEI? :</label>
+    <input type="text" name="miesto" placeholder="Zadaj miesto" id="start" value="Bratislava, Slovensko">
+    <input type="button" value="Najdi" id="najdi">
+    <form id="mainForm" name="mainForm">
+        <input type="radio" name="doprava" value="WALKING" checked> Pešo
+        <input type="radio" name="doprava" value="DRIVING"> Autom
+    </form>
+
+</fieldset>
+
+<br>
+<br>
+<div id="map" ></div>
+<div id="pano"></div>
+<br>
+
+
+<div class="warnings-panel" id="warnings-panel"></div>
+
+<footer> Copyright:&copy; 2017, František Franko</footer>
+</body>
+<script  type="text/javascript"  src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?API_KEY&libraries=places&callback=myMap" async defer></script>
+
+
+</html>

@@ -1,0 +1,73 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+
+
+    position: relative;
+    height: 100%;
+
+}
+
+fieldset{
+    text-align: center;
+    margin: 7px;
+    width:80%;
+    margin: 8px auto;
+}
+header{
+    padding: 2px;
+    bottom:0;
+    left:0;
+    position:relative;
+    width: 100%;
+    text-align: center;
+    color:white ;
+    background-color:#323844;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+
+    background-color:#323844;
+    width: 100%;
+    padding: 0.8%;
+    text-align: center;
+    color: white;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 5;
+
+}
+#map {
+
+    float: left;
+    width: 60%;
+    height: 58%;
+    margin: -2% 3% 0 3%;
+
+}
+
+#pano{
+
+    width: 30%;
+    height: 58%;
+    margin-top: -2%;
+
+
+}
+
+.warnings-panel {
+
+
+    text-align: center;
+    margin:  0 auto;
+
+
+
+}
+

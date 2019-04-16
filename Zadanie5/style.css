@@ -1,0 +1,73 @@
+body{
+    background-image: url("texture.jpg");
+    background-size: 10%;
+    background-repeat: repeat;
+
+    margin: 0 auto;
+    text-align: center;
+
+}
+#zobraz{
+    padding: 7px;
+    color: white;
+    background-color: dodgerblue;
+
+}
+#body{
+
+    background-color: rgba(183, 204, 255, 0.7);
+    width: 45%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom :30px;
+    margin-top: 50px;
+
+}
+#stav{
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+
+}
+header{
+    position: relative;
+    background-color:dodgerblue;
+    padding: 1px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+footer{
+
+    background-color:#323844;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    position:fixed;
+    bottom:0;
+    left:0;
+
+}
+#input{
+    background-color:dodgerblue;
+    color: white;
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+

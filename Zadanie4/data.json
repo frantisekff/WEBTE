@@ -1,0 +1,53 @@
+{
+  "photos": [
+      {
+        "src": "images/foto_1_full.jpg",
+        "src2": "images/foto_1_thumb.jpg",
+        "title": "Obr. 1",
+        "description": "Mesiac nad historickou budeovou v Starom meste"
+      },
+      {
+        "src": "images/foto_2_full.jpg",
+        "src2": "images/foto_2_thumb.jpg",
+        "title": "Obr. 2",
+        "description": "Vyhlad z Jahnaceho stitu"
+      },
+
+    {
+      "src": "images/foto_3_full.jpg",
+      "src2": "images/foto_3_thumb.jpg",
+      "title": "Obr. 3",
+      "description": "Pleso Vysoké Tatry"
+    },
+    {
+      "src": "images/foto_4_full.jpg",
+      "src2": "images/foto_4_thumb.jpg",
+      "title": "Obr. ",
+      "description": "Plesa cestou na štít Svinica"
+    },
+    {
+      "src": "images/foto_5_full.jpg",
+      "src2": "images/foto_5_thumb.jpg",
+      "title": "Obr. 5",
+      "description": "Plesa cestou na štít Svinica"
+    },
+    {
+      "src": "images/foto_6_full.jpg",
+      "src2": "images/foto_6_thumb.jpg",
+      "title": "Obr. 6",
+      "description": "Plesa cestou na štít Svinica"
+    },
+    {
+      "src": "images/foto_7_full.jpg",
+      "src2": "images/foto_7_thumb.jpg",
+      "title": "Obr. 7",
+      "description": "Svišť tatranský"
+    },
+    {
+      "src": "images/foto_8_full.jpg",
+      "src2": "images/foto_1_thumb.jpg",
+      "title": "Obr. 9",
+      "description": "Poľsko - Vysoké Tatry"
+    }
+  ]
+}

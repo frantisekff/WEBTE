@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<img src="images/pozadie.jpg" alt="pozadie" id="pozadie">
+<header>
+    <h1>Letné zážitky</h1>
+
+</header>
+
+
+<div class="banner-section" id="img-container">
+</div>
+
+<div id="album">
+
+
+    <div class="foto">
+        <img src="images/foto_1_full.jpg" alt="prezentacia" width="50%" height="50%" id="bg_screen">
+        <input type="image" src="buttons/cancel.png" class="buttons " id="cancel" onclick="cancel()" alt="button cancel" width="5%" height="5%" >
+
+    </div>
+    <div class="wrap">
+        <div class="popis">
+            <label for="bg_screen" id="describ_img"></label>
+
+
+        </div>
+
+        <div id="buttons">
+            <input type="image" src="buttons/prev.png"  alt="prezentacia" class="buttons" onclick="prew_img()">
+            <input type="image" src="buttons/play.png"  alt="prezentacia" class="buttons" onclick="play()">
+            <input type="image" src="buttons/Pause.png"  alt="prezentacia" class="buttons" onclick="pause()">
+            <input type="image" src="buttons/next.png"  alt="prezentacia" class="buttons" onclick="next_img()">
+
+
+        </div>
+    </div>
+</div>
+
+<footer>Copyright:&copy; 2017 WEBTECH, František Franko</footer>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
